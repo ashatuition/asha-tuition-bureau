@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none" role="img" aria-label="Asha Tuition Bureau">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d060"/>
+      <stop offset="50%" stop-color="#e8c547"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#c9a227" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#softGlow)">
+    <path d="M50 4 L82 20 V46 C82 64 50 84 50 84 C50 84 18 64 18 46 V20 Z" fill="#0a1628" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M50 26 L62 54 H58 L55 47 H45 L42 54 H38 Z M47 32 L50 40 L53 32 Z" fill="url(#gold)"/>
+    <rect x="36" y="58" width="28" height="2.5" rx="1.25" fill="url(#gold)"/>
+  </g>
+  <line x1="96" y1="18" x2="96" y2="72" stroke="url(#gold)" stroke-width="1.5" opacity="0.5"/>
+  <text x="112" y="48" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="-0.5">Asha Tuition Bureau</text>
+  <text x="112" y="72" font-family="'DM Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="url(#gold)" letter-spacing="0.2em">HOME TUITION · VARANASI</text>
+</svg>
