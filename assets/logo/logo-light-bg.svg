@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" fill="none" role="img" aria-label="Asha Tuition Bureau  light background">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="50%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#a68518"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2d4a"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0a1628" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <!-- Subtle white card (optional placement guide  transparent outside) -->
+  <rect x="8" y="8" width="464" height="104" rx="16" fill="#ffffff" opacity="0"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(24, 10)">
+      <path d="M50 4 L82 20 V46 C82 64 50 84 50 84 C50 84 18 64 18 46 V20 Z" fill="url(#navy)" stroke="url(#gold)" stroke-width="2"/>
+      <path d="M50 26 L62 54 H58 L55 47 H45 L42 54 H38 Z M47 32 L50 40 L53 32 Z" fill="url(#gold)"/>
+      <rect x="36" y="58" width="28" height="2.5" rx="1.25" fill="url(#gold)"/>
+    </g>
+    <line x1="120" y1="28" x2="120" y2="82" stroke="url(#gold)" stroke-width="1.5" opacity="0.45"/>
+    <text x="136" y="54" font-family="'Playfair Display', Georgia, serif" font-size="30" font-weight="700" fill="#0a1628">Asha Tuition Bureau</text>
+    <text x="136" y="78" font-family="'DM Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#a68518" letter-spacing="0.18em">VERIFIED HOME TUTORS · VARANASI</text>
+  </g>
+</svg>

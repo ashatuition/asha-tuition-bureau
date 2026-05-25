@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="Asha Tuition Bureau icon">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="50%" stop-color="#c9a227"/>
+      <stop offset="100%" stop-color="#a68518"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2d4a"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Shield emblem -->
+  <path d="M60 8 L98 28 V58 C98 82 60 108 60 108 C60 108 22 82 22 58 V28 Z" fill="url(#navy)" stroke="url(#gold)" stroke-width="2.5" filter="url(#glow)"/>
+  <!-- Inner accent ring -->
+  <path d="M60 18 L88 34 V56 C88 74 60 94 60 94 C60 94 32 74 32 56 V34 Z" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.35"/>
+  <!-- Monogram A -->
+  <path d="M60 32 L78 72 H70 L66 62 H54 L50 72 H42 Z M57 44 L60 54 L63 44 Z" fill="url(#gold)"/>
+  <!-- Book base line -->
+  <rect x="44" y="78" width="32" height="3" rx="1.5" fill="url(#gold)" opacity="0.9"/>
+  <rect x="48" y="84" width="24" height="2" rx="1" fill="#fff" opacity="0.25"/>
+</svg>
