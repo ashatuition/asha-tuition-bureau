@@ -174,7 +174,7 @@
      TUITION FORM → WHATSAPP ENQUIRY
      Opens https://wa.me/ with pre-filled message (no backend)
      ========================================================================== */
-  const WHATSAPP_ENQUIRY_NUMBER = "917755039996";
+  const WHATSAPP_ENQUIRY_NUMBER = "919369144417";
   const WHATSAPP_REDIRECT_MS = 1000;
 
   function getFormFieldValue(id) {
